@@ -109,7 +109,7 @@ predict_perceptron <- function(weights, x1, x2, x3, x4) {
 
 # definindo variaveis
 
-excluir_classe = TRUE
+excluir_classe = FALSE
 #   excluir_classe -- se TRUE, exclui uma das classes do data.iris e executa com 2 classes 
 percent_data = 0.2
 #   percent_data -- define o percentual utilizado do banco data.iris para o treinamento da rede 
